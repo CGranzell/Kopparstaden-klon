@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/logo.svg" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Lägenheter och hyresrätter i Falun - Kopparstaden</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md">
+      <a class="navbar-brand" href="index.html"
+        ><img src="/img/logo.svg" alt="Logo" class="logo"
+      /></a>
+      <div class="mobile-view-icons-container d-flex align-items-center">
+        <a href="" class="d-flex"
+          ><i
+            class="mobile-view-icons fa-solid fa-earth-europe mt-1 mr-4 d-md-none"
+          ></i>
+        </a>
+        <a href="" class="d-flex"
+          ><i
+            class="mobile-view-icons fa-solid fa-magnifying-glass mt-1 d-md-none mr-3"
+          ></i>
+        </a>
+
+        <button
+          class="navbar-toggler d-flex flex-column"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars hamburger d-md-none"></i>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav col-xs-2">
+          <li class="nav-item active nav-left-text">
+            <a href="#">Bo hos oss</a>
+          </li>
+          <li class="nav-item nav-left-text ml-4"><a href="#">Student</a></li>
+          <li class="nav-item nav-left-text ml-4">
+            <a href="#">Samarbeta med oss</a>
+          </li>
+        </ul>
+        <!-- Right links -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item d-flex align-items-center">
+            <a href="" class="d-flex"
+              ><i class="fa-solid fa-phone-flip mt-1"></i>
+              <span class="d-none d-lg-block ml-2">Kontakta oss</span></a
+            >
+          </li>
+
+          <li class="nav-item d-flex align-items-center ml-4">
+            <a href="" class="d-flex"
+              ><i class="fa-solid fa-circle-info mt-1"></i>
+              <span class="d-none d-lg-block ml-2">Om oss</span></a
+            >
+          </li>
+          <li class="nav-item d-flex align-items-center ml-4">
+            <a href="" class="d-flex"
+              ><i class="fa-solid fa-user mt-1"></i>
+              <span class="d-none d-lg-block ml-2">Mina sidor</span>
+            </a>
+          </li>
+          <li class="nav-item d-flex align-items-center ml-4">
+            <a href="" class="d-flex"
+              ><i class="fa-solid fa-bell mt-1"></i>
+              <span class="d-none d-lg-block ml-2">Aktuellt just nu</span>
+            </a>
+          </li>
+          <li class="nav-item d-flex align-items-center ml-4">
+            <a href="" class="d-flex"
+              ><i class="fa-solid fa-earth-europe mt-1"></i>
+              <span class="d-none d-lg-block ml-2">Translate</span></a
+            >
+          </li>
+          <li class="nav-item d-flex align-items-center ml-4">
+            <a href="" class="d-flex"
+              ><i class="fa-solid fa-magnifying-glass mt-1"></i>
+              <span class="d-none d-lg-block ml-2">Sök</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Navbar responsive -->
+    <nav
+      class="container-max-width collapse navbar-collapse nav-responsive"
+      id="navbarResponsive"
+    >
+      <ul class="nav d-flex flex-column">
+        <li class="nav-item responsive-item d-flex align-items-center p-4">
+          <a href="#">Bo hos oss</a>
+          <i class="fa-solid fa-square-plus ml-auto"></i>
+        </li>
+        <li class="nav-item responsive-item d-flex align-items-center p-4">
+          <a href="#">Student</a>
+          <i class="fa-solid fa-square-plus ml-auto"></i>
+        </li>
+        <li class="nav-item responsive-item d-flex align-items-center p-4">
+          <a href="#">Samarbeta med oss</a>
+          <i class="fa-solid fa-square-plus ml-auto"></i>
+        </li>
+        <li class="nav-item responsive-item d-flex align-items-center p-4">
+          <a href="#"
+            ><i class="fa-solid fa-phone-flip mt-1"></i
+            ><span class="ml-3">Kontakta oss</span></a
+          >
+          <i class="fa-solid fa-square-plus ml-auto"></i>
+        </li>
+        <li class="nav-item responsive-item d-flex align-items-center p-4">
+          <a href="#"
+            ><i class="fa-solid fa-circle-info mt-1"></i
+            ><span class="ml-3">Om Oss</span></a
+          >
+          <i class="fa-solid fa-square-plus ml-auto"></i>
+        </li>
+        <li class="nav-item responsive-item d-flex align-items-center p-4">
+          <a href="#"
+            ><i class="fa-solid fa-user mt-1"></i
+            ><span class="ml-3">Mina Sidor</span></a
+          >
+          <i class="fa-solid fa-square-plus ml-auto"></i>
+        </li>
+        <li class="nav-item responsive-item d-flex align-items-center p-4">
+          <a href="#"
+            ><i class="fa-solid fa-bell mt-1"></i
+            ><span class="ml-3">Aktuellt just nu</span></a
+          >
+          <i class="fa-solid fa-square-plus ml-auto"></i>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Under nav -->
+    <nav class="under-nav d-none d-md-block">
+      <ul class="nav ml-3">
+        <li class="nav-item mt-3"><a href="#" class="">Sök ledigt</a></li>
+        <li class="nav-item mt-3">
+          <a href="#" class="ml-4">Typ av boende</a>
+        </li>
+        <li class="nav-item mt-3"><a href="#" class="ml-4">Våra områden</a></li>
+        <li class="nav-item mt-3">
+          <a href="#" class="ml-4">Om din bostad</a>
+        </li>
+        <li class="nav-item mt-3">
+          <a href="#" class="ml-4">Vad händer i ditt område?</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- </div> -->
+
+    <!-- Hero Img -->
+    <div class="container-max-width hero-img-container">
+      <div class="welcome-text">
+        <h1>
+          Välkommen hem <br />
+          till Kopparstaden
+        </h1>
+      </div>
+      <img
+        src="/img/kopparstaden_bohososs.jpg"
+        class="img-fluid hero-img"
+        alt="Responsive image"
+      />
+    </div>
+
+    <!-- Main  -->
+
+    <main
+      class="container-fluid main-container d-flex flex-column align-items-center"
+    >
+      <div class="btn-main-container w-100">
+        <div class="container-fluid btn-container btn-list">
+          <h2 class="mt-5">Bostadskö och felanmälan!</h2>
+          <div class="row row-container d-flex flex-column flex-md-row">
+            <div class="col col-container">
+              <button class="btn w-100">
+                Ställ dig i bostadskö<i class="fa-solid fa-angles-right"></i>
+              </button>
+            </div>
+            <div class="col col-container">
+              <button class="btn w-100">
+                Uppdatera kötid<i class="fa-solid fa-angles-right"></i>
+              </button>
+            </div>
+            <div class="w-100"></div>
+            <div class="col col-container pt-2">
+              <button class="btn w-100">
+                Gör en felanmälan<i class="fa-solid fa-angles-right"></i>
+              </button>
+            </div>
+            <div class="col col-container pt-2">
+              <button class="btn w-100">
+                Mina sidor<i class="fa-solid fa-angles-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Aktuellt -->
+        <div class="aktuellt-container container-fluid mt-5">
+          <div class="aktuellt-row row d-flex flex-column flex-md-row">
+            <!-- Akutell col -->
+            <div class="col aktuellt-col">
+              <h3 class="pt-3">Aktuellt just nu</h3>
+              <ul class="aktuellt-list container-fluid">
+                <li class="aktuell-list-item d-flex flex-column">
+                  <span class="aktuell-date-text">2023-08-08</span>
+                  <a class="" href="#">
+                    <span class="aktuell-list-text"
+                      >Risk för höga vattenflöden och översvämning<i
+                        class="fa-solid fa-angles-right"
+                      ></i
+                    ></span>
+                  </a>
+                </li>
+                <li class="aktuell-list-item d-flex flex-column">
+                  <span class="aktuell-date-text">2023-08-08</span>
+                  <a class="" href="#">
+                    <span class="aktuell-list-text"
+                      >Vi söker bovärdar<i class="fa-solid fa-angles-right"></i
+                    ></span>
+                  </a>
+                </li>
+                <li class="aktuell-list-item d-flex flex-column">
+                  <span class="aktuell-date-text">2023-08-07</span>
+                  <a class="" href="#">
+                    <span class="aktuell-list-text"
+                      >Hyresavisering i augusti<i
+                        class="fa-solid fa-angles-right"
+                      ></i
+                    ></span>
+                  </a>
+                </li>
+                <li class="aktuell-list-item d-flex flex-column">
+                  <span class="aktuell-date-text">2023-07-18</span>
+                  <a href="#">
+                    <span class="aktuell-list-text"
+                      >Hyresgästenkäten<i class="fa-solid fa-angles-right"></i
+                    ></span>
+                  </a>
+                </li>
+              </ul>
+              <div class="d-flex justify-content-end">
+                <a href=""
+                  ><span class="aktuell-list-text"
+                    >Visa mer som är aktuellt<i
+                      class="fa-solid fa-angles-right aktuell-list-text"
+                    ></i></span
+                ></a>
+              </div>
+            </div>
+            <!-- Sök ledigt col -->
+
+            <div class="col sok-ledigt-col">
+              <h3 class="pl-3 pt-2">Sök ledigt</h3>
+              <ul class="sok-ledigt-list container-fluid">
+                <li class="sok-ledigt-item d-flex">
+                  <div
+                    class="sok-ledigt-icon-container d-flex justify-content-center align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="sok-ledigt-icon-wrapper d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-building"></i>
+                    </a>
+                  </div>
+                  <a
+                    href="#"
+                    class="sok-ledigt-text-container d-flex align-items-center h-100 w-50"
+                  >
+                    <p>Lediga lägenheter</p>
+                    <i class="fa-solid fa-up-right-from-square pb-3 pl-1"></i>
+                  </a>
+                </li>
+                <li class="sok-ledigt-item d-flex">
+                  <div
+                    class="sok-ledigt-icon-container d-flex justify-content-center align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="sok-ledigt-icon-wrapper d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-building"></i>
+                    </a>
+                  </div>
+                  <a
+                    href="#"
+                    class="sok-ledigt-text-container d-flex align-items-center h-100 w-50"
+                  >
+                    <p>Lediga seniorlägenheter</p>
+                    <i class="fa-solid fa-up-right-from-square pb-3 pl-1"></i>
+                  </a>
+                </li>
+                <li class="sok-ledigt-item d-flex">
+                  <div
+                    class="sok-ledigt-icon-container d-flex justify-content-center align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="sok-ledigt-icon-wrapper d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-car"></i>
+                    </a>
+                  </div>
+                  <a
+                    href="#"
+                    class="sok-ledigt-text-container d-flex align-items-center h-100 w-50"
+                  >
+                    <p>Lediga fordonsplatser</p>
+                    <i class="fa-solid fa-up-right-from-square pb-3 pl-1"></i>
+                  </a>
+                </li>
+                <li class="sok-ledigt-item d-flex">
+                  <div
+                    class="sok-ledigt-icon-container d-flex justify-content-center align-items-center"
+                  >
+                    <a
+                      href="#"
+                      class="sok-ledigt-icon-wrapper d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-box-open"></i>
+                    </a>
+                  </div>
+                  <a
+                    href="#"
+                    class="sok-ledigt-text-container d-flex align-items-center h-100 w-50"
+                  >
+                    <p>Lediga förråd</p>
+                    <i class="fa-solid fa-up-right-from-square pb-3 pl-1"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Frågor -->
+        <div class="container-fluid fraga-container mt-5 p-4">
+          <div class="row fraga-row d-flex flex-column flex-md-row">
+            <div class="col-md-4 d-flex flex-md-column stall-fraga-col">
+              <div class="p-3">
+                <h3>Ställ en fråga</h3>
+                <p>
+                  Du är troligen inte ensam om dina funderingar. Se efter om
+                  svaret på din fråga redan finns bland frågor och svar som
+                  ställts tidigare.
+                </p>
+                <a href="#">
+                  <span
+                    >Ställ din fråga här<i
+                      class="fa-solid fa-up-right-from-square pb-3 pl-1"
+                    ></i
+                  ></span>
+                </a>
+              </div>
+              <div class="fraga-img-container d-flex justify-content-end p-4">
+                <img src="/img/kundo-forum.png" alt="question-img" />
+              </div>
+            </div>
+            <!-- Populara -->
+            <div class="col-md-8 populara-fragor-col p-4">
+              <p>Populära frågor</p>
+              <ul class="populara-list">
+                <li class="populara-list-item h-25">
+                  <p class="p-2">
+                    Vad menas med köpoäng plats 10?<i
+                      class="fa-solid fa-up-right-from-square pb-3 pl-1"
+                    ></i>
+                  </p>
+                </li>
+                <li class="populara-list-item h-25">
+                  <p class="p-2">
+                    Jag vill registrera mig i kön igen, hur gör jag?<i
+                      class="fa-solid fa-up-right-from-square pb-3 pl-1"
+                    ></i>
+                  </p>
+                </li>
+                <li class="populara-list-item h-25">
+                  <p class="p-2">
+                    Göra fullmakt till mina föräldrar att hämta nycklarna till
+                    min lägenhet?<i
+                      class="fa-solid fa-up-right-from-square pb-3 pl-1"
+                    ></i>
+                  </p>
+                </li>
+                <li class="populara-list-item h-25">
+                  <p class="p-2">
+                    Vad får man göra på våra gemensamma gräsytor?<i
+                      class="fa-solid fa-up-right-from-square pb-3 pl-1"
+                    ></i>
+                  </p>
+                </li>
+              </ul>
+              <p>
+                Visa alla
+                <i class="fa-solid fa-up-right-from-square pb-3 pl-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bild länkar -->
+
+        <div class="container-fluid img-links-container">
+          <div class="row">
+            <div class="col-md p-0 p-md-3">
+              <a href="#" class="img-link-a">
+                <div class="col img-links-col mt-4 mt-md-0">
+                  <div class="img-links-img-container">
+                    <img src="img/730x340-kvarnberget-renovering.png" alt="" />
+                  </div>
+                  <div class="">
+                    <h3>Här bygger vi nytt</h3>
+                    <p>
+                      Info om nyproduktion
+                      <i class="fa-solid fa-angles-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md p-0 p-md-3">
+              <a href="#" class="img-link-a">
+                <div class="col img-links-col mt-4 mt-md-0">
+                  <div class="img-links-img-container">
+                    <img src="img/Byggjobbare-2-730x340.jpg" alt="" />
+                  </div>
+                  <div class="img-link-text">
+                    <h3>Här bygger vi nytt</h3>
+                    <p>
+                      Info om nyproduktion
+                      <i class="fa-solid fa-angles-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md p-0 p-md-3">
+              <a href="#" class="img-link-a">
+                <div class="col img-links-col mt-4 mt-md-0">
+                  <div class="img-links-img-container">
+                    <img src="img/boinflytande_bilder_hemsidan_6.jpg" alt="" />
+                  </div>
+                  <div class="">
+                    <h3>Var med och gör skillnad</h3>
+                    <p>
+                      Tyck till om ditt boende
+                      <i class="fa-solid fa-angles-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Dala img -->
+          <div class="container-fluid dala-img-container mt-4 mb-4">
+            <div class="dala-img-wrapper">
+              <img src="img/single-line_of_dala.gif" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Rapportera fel -->
+    <div class="rapportera-fel-container container-max-width">
+      <div
+        class="rapportera-text-wrapper d-flex justify-content-center align-items-center mt-2"
+      >
+        <a href="#">
+          <p class="rapportera-text px-4 px-lg-0">
+            Har du sett något som är felaktigt på vår webbplats? Rapportera det
+            här.<i class="fa-solid fa-angles-right"></i>
+          </p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Dala-hastar -->
+
+    <div
+      style="
+        background-image: url(img/horses_of_dala.gif);
+        background-repeat: repeat-x;
+        width: 100vw;
+        height: 3rem;
+      "
+    ></div>
+
+    <footer
+      class="footer-main-container container-fluid d-flex justify-content-center"
+    >
+      <div class="row footer-row container pt-5">
+        <div class="col-md-12 col-lg-3 p-4 p-lg-0 footer-col">
+          <a href="#" class="footer-a">Kontakt</a><br />
+          <p class="footer-p">Epost:</p>
+          <a href="#" class="footer-a"> kundcenter@kopparstaden.se</a><br />
+          <a href="#" class="footer-a">marknad@kopparstaden.se</a><br />
+          <a href="#" class="footer-a"> student@kopparstaden.se</a>
+
+          <p>Telefon:</p>
+          <a href="#" class="footer-phone-nr">023-45800</a>
+
+          <p>Avvikande öppetider</p>
+        </div>
+        <div class="col-6 col-lg-3 p-4 p-lg-0 footer-col">
+          <p class="footer-p">Postadress</p>
+          <p class="footer-p">Kopparstaden AB</p>
+          <p>Box 1985<br />791 19 Falun</p>
+          <p class="footer-p d-none d-md-block">Organisationsnummer</p>
+          <p class="d-none d-md-block">556049-4865</p>
+        </div>
+        <div class="col-6 col-lg-3 p-4 p-lg-0 footer-col">
+          <p class="footer-p">Besöksadress</p>
+          <p class="footer-p">Bobutiken</p>
+          <p>Stigaregatan 3B <br />791 71 Falun</p>
+
+          <a href="#" class="footer-a">Våra öppetider</a>
+        </div>
+        <div class="col p-4 p-lg-0 footer-col">
+          <p>Sociala medier och app</p>
+          <ul class="social-links-list">
+            <li class="social-list-item">
+              <a href="#">
+                <i class="fa-brands fa-square-facebook social-icon"></i>
+                <span>
+                  Följ oss på Facebook<i
+                    class="fa-solid fa-up-right-from-square pb-3 pl-1"
+                  ></i>
+                </span>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="#">
+                <i class="fa-brands fa-square-instagram social-icon"></i>
+                <span>
+                  Följ oss på Instagram<i
+                    class="fa-solid fa-up-right-from-square pb-3 pl-1"
+                  ></i>
+                </span>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="#">
+                <i class="fa-brands fa-linkedin social-icon"></i>
+                <span>
+                  Följ oss på LinkedIn<i
+                    class="fa-solid fa-up-right-from-square pb-3 pl-1"
+                  ></i>
+                </span>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="#">
+                <i class="fa-brands fa-square-youtube social-icon"></i>
+                <span>
+                  Följ oss på Youtube<i
+                    class="fa-solid fa-up-right-from-square pb-3 pl-1"
+                  ></i>
+                </span>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="#">
+                <i class="fa-solid fa-mobile-screen-button social-icon"></i>
+                <span> Ladda ner vår app </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="extra-links-container pt-4">
+      <div class="container d-flex flex-column flex-md-row">
+        <a href="#" class="extra-link pl-2">Mer om Kopparstaden AB</a>
+        <a href="#" class="extra-link pl-2">Om den här webbplatsen</a>
+        <a href="#" class="extra-link pl-2">Vilkor och regler</a>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/194bd0d488.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+  </body>
+</html>

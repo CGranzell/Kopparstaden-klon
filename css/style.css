@@ -1,0 +1,484 @@
+/*-------------- Navbar -----------------------*/
+.navbar {
+  height: 7rem;
+  background-color: #ab200c;
+}
+
+.logo {
+  height: 5rem;
+}
+
+.nav-item span:hover {
+  text-decoration: underline;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item.active a {
+  color: #e2d7af;
+}
+
+.nav-left-text {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.nav-left-text:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus {
+  outline: none;
+}
+
+.hamburger {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+/*--------------------- Navbar Responsive  ---------------*/
+.responsive-item {
+  height: 4.6rem;
+  border: 1px solid white;
+}
+
+.nav-responsive {
+  color: white;
+  background-color: #730301;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/*----------------- Under nav ---------------*/
+.under-nav {
+  height: 3.2rem;
+  background-color: #730301;
+  font-weight: 700;
+}
+
+.mobile-view-icons {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.mobile-view-icons:hover {
+  text-decoration: none;
+}
+
+/*--------------- Hero Img -----------------*/
+.hero-img-container {
+  height: 30rem;
+  position: relative;
+}
+
+.hero-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 7rem;
+  left: 8rem;
+}
+
+.welcome-text h1 {
+  font-family: 'londrina solid', sans-serif;
+  color: #0e7489;
+  font-size: 4.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-stretch: ultra-condensed;
+}
+
+/* -----------------Main-----------------  */
+.main-container {
+  background-image: url(/img/pattern_of_dala.gif);
+  height: auto;
+  background-position: center;
+}
+
+.btn-main-container {
+  height: auto;
+}
+
+/* Btn Container */
+.btn-container {
+  height: auto;
+}
+
+.btn-list h2 {
+  color: #ab200c;
+}
+
+.btn-list button {
+  background-color: #297489;
+  color: white;
+  border-radius: 9999px;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  padding: 0.5em 1em;
+}
+
+.btn-list button:hover {
+  background-color: #215f70;
+}
+
+.fa-angles-right {
+  font-size: 1.1rem;
+}
+
+/*--------------- Aktuellt ------------*/
+.aktuellt-container {
+  height: auto;
+}
+
+.aktuellt-row {
+  height: 27rem;
+}
+
+.aktuellt-col {
+  background-color: #fffdfd;
+  border-radius: 10px;
+  height: 90%;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.aktuellt-col h3 {
+  color: #ab200c;
+}
+
+.aktuellt-list {
+  list-style: none;
+  height: 70%;
+  padding: 0;
+}
+
+.aktuell-list-item {
+  height: 25%;
+}
+
+.aktuell-date-text {
+  color: #b3210f;
+}
+
+.aktuell-list-text {
+  color: #107d94;
+}
+
+.sök-ledigt-col {
+  background-color: #f8f9f9;
+}
+
+/*------------ Sök ledigt -------------*/
+
+.sok-ledigt-col {
+  height: 100%;
+  padding: 0;
+}
+
+.sok-ledigt-col h3 {
+  color: #b3210f;
+}
+
+.sok-ledigt-list {
+  list-style: none;
+  height: 90%;
+  padding: 0;
+}
+
+.sok-ledigt-item {
+  height: 25%;
+}
+
+.sok-ledigt-item i {
+  font-size: 1.7rem;
+  color: white;
+}
+
+.sok-ledigt-icon-container {
+  width: 20%;
+}
+
+.sok-ledigt-icon-wrapper {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  background-color: #0e7489;
+}
+
+.sok-ledigt-text-container,
+.sok-ledigt-text-container i {
+  color: #0e7489;
+  font-size: 1.1rem;
+}
+
+/* ----------- Frågor ------------ */
+
+.fraga-row {
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.stall-fraga-col {
+  border-radius: 10px 0 0 10px;
+  background-color: #107d94;
+}
+
+.stall-fraga-col > *,
+.stall-fraga-col span {
+  color: white;
+}
+
+.fraga-img-container img {
+  width: 7rem;
+  height: 7rem;
+}
+
+/* Populara */
+.populara-fragor-col {
+  border-radius: 0 10px 10px 0;
+  background-color: #0b5f70;
+  color: white;
+}
+
+.populara-fragor-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.populara-list-item p {
+  margin: 0;
+  height: 25%;
+}
+
+.populara-list-item:nth-child(1),
+.populara-list-item:nth-child(3) {
+  background-color: #0d6e82;
+}
+.populara-list-item:nth-child(2),
+.populara-list-item:nth-child(4) {
+  background-color: #0b5f70;
+}
+
+/* Bild länkar */
+
+.img-links-img-container {
+  height: 10rem;
+  width: 100%;
+}
+
+.img-links-img-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.img-links-col:hover {
+  background-color: #f5ebe9;
+}
+
+.img-links-col h3 {
+  color: #ab200c;
+}
+
+.img-links-col p {
+  color: #0e7489;
+  font-size: 1.1rem;
+}
+.img-link-a:hover {
+  text-decoration: none;
+}
+
+.img-links-col {
+  padding: 0;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Dala img  */
+
+.dala-img-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Rapportera fel */
+
+.rapportera-fel-container {
+  height: 3rem;
+}
+
+.rapportera-fel-container a:hover {
+  color: #627710;
+}
+
+.rapportera-text {
+  color: #627710;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 600;
+  
+}
+
+/* Footer */
+.footer-main-container {
+  height: auto;
+  background-color: #790402;
+  color: white;
+}
+
+.footer-row {
+  padding: 0;
+}
+
+.footer-col {
+  padding: 0;
+}
+
+.footer-a {
+  text-decoration: underline;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.footer-a:hover,
+.footer-phone-nr:hover {
+  color: white;
+}
+
+.footer-p {
+  font-weight: 800;
+}
+
+.footer-phone-nr {
+  font-size: 2rem;
+  text-decoration: underline;
+  color: white;
+}
+
+.social-links-list {
+  padding: 0;
+  list-style: none;
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.social-list-item span {
+  font-size: 1rem;
+  color: white;
+  text-decoration: underline;
+}
+
+/* Extra links */
+.extra-links-container {
+  background-color: #790402;
+  height: 6rem;
+}
+
+.extra-links-container a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* ------------Media Queries -------------------*/
+
+/* X-large screen */
+@media only screen and (min-width: 1200px) {
+  .btn-main-container {
+    width: 1100px !important;
+  }
+}
+/* Large screen */
+
+/* Medium screen */
+@media only screen and (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    height: 4.6rem;
+  }
+
+  .logo {
+    height: 3.3rem;
+  }
+
+  /* Hero Img */
+  .welcome-text {
+    left: 3rem;
+  }
+
+  .welcome-text h1 {
+    font-size: 4rem;
+  }
+
+  /* Main  */
+
+  /* Btn-list  */
+  .btn-container {
+    height: auto;
+  }
+
+  .row-container {
+    height: 20rem;
+  }
+
+  /* Aktuell */
+  .aktuellt-row {
+    height: 50rem;
+  }
+
+  /* Frågor */
+  .stall-fraga-col {
+    height: 40%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .populara-fragor-col {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .fraga-img-container img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+   /* rapportera fel */
+   .rapportera-fel-container {
+    height: 7rem;
+   }
+
+}
+
+@media only screen and (max-width: 610px) {
+  /* Hero Img */
+  .hero-img-container {
+    height: 12.5rem;
+  }
+
+  .welcome-text {
+    top: 3rem;
+    left: 2rem;
+  }
+
+  .welcome-text h1 {
+    font-size: 2rem;
+  }
+
+ 
+}
